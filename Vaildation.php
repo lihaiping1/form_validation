@@ -97,14 +97,13 @@ class Vaildation{
 					foreach ($matches[1] as $vv){
 						$field[] = $vv;
 					}
-					
 				}
 			}
 			
 			$data = $this->_getValue($field, $this->vaildationData);
 			$tA = explode('|', trim($v['rules'], '/'));
 			$tB = true;
-			
+			if( ! $data) $data = [''];
 			foreach ($data as $val){
 				foreach ($tA as $rules){
 					$langKey = $rules;
@@ -195,7 +194,8 @@ class Vaildation{
 	 * @return	boolean
 	 */
 	private function _Vrequired($value){
-		return ($v !== '' || $v);
+		
+		return ($value !== '' || $value);
 	}
 	
 	/**
