@@ -1,0 +1,11 @@
+{
+    "name": "lhp/form_validation",
+    "description": "from validation",
+    "authors": [
+        {
+            "name": "lihaiping",
+            "email": "549396579@qq.com"
+        }
+    ],
+    "require": {}
+}
