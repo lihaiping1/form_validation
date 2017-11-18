@@ -10,7 +10,7 @@
     ],
     "autoload": {
 	    "psr-4": {
-	      "lhp\\form_validation\\": ""
+	      "Lhp\\Form_validation\\": ""
 	    }
   	},
     "require": {}
