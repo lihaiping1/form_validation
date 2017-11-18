@@ -1,6 +1,6 @@
 <?php
 
-namespace lhp\form_validation;
+namespace Lhp\Form_validation;
 
 class Vaildation{
 
