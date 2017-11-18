@@ -1,11 +1,17 @@
 {
     "name": "lhp/form_validation",
     "description": "from validation",
+    "license": "lhp",
     "authors": [
         {
             "name": "lihaiping",
             "email": "549396579@qq.com"
         }
     ],
+    "autoload": {
+	    "psr-4": {
+	      "lhap\\form_validation\\": ""
+	    }
+  	},
     "require": {}
 }
